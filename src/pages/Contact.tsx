@@ -16,7 +16,7 @@ const Contact = () => {
       <section className="container py-12 grid lg:grid-cols-2 gap-8">
         <div className="space-y-4">
           {[
-            { icon: MapPin, title: language === 'hi' ? "कार्यालय पता" : "Office Address", text: language === 'hi' ? "विधायक कार्यालय, वैशाली नगर, जयपुर, राजस्थान - 302021" : "MLA Office, Vaishali Nagar, Jaipur, Rajasthan - 302021" },
+            { icon: MapPin, title: language === 'hi' ? "कार्यालय पता" : "Office Address", text: language === 'hi' ? "विधायक कार्यालय, वैशाली नगर, भिलाई, छत्तीसगढ़" : "MLA Office, Vaishali Nagar, Bhilai, Chhattisgarh" },
             { icon: Phone, title: language === 'hi' ? "फोन" : "Phone", text: "0141-4105020 / +91 97850 18444" },
             { icon: Mail, title: language === 'hi' ? "ईमेल" : "Email", text: "contact@rikeshsen.in" },
             { icon: Clock, title: language === 'hi' ? "कार्यालय समय" : "Office Hours", text: language === 'hi' ? "सोम-शनि: 10:00 AM - 06:00 PM" : "Mon-Sat: 10:00 AM - 06:00 PM" },
