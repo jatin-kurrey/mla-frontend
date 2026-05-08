@@ -210,7 +210,7 @@ interface DataContextType {
 
 const DataContext = createContext<DataContextType | undefined>(undefined);
 
-const API_URL = "http://localhost:5001/api";
+const API_URL = import.meta.env.VITE_API_URL || "https://mla-backend-q5jw.onrender.com/api";
 
 const defaultContent: SiteContent = {
   hero: {

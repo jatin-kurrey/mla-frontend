@@ -5,7 +5,7 @@ import news2 from "@/assets/news2.jpg";
 import news3 from "@/assets/news3.jpg";
 import {
   MapPin, Users, HeartPulse, BookOpen, Briefcase, Zap, Droplets,
-  Construction, GraduationCap, HandHeart, MessageSquare, ShieldCheck, ChevronRight,
+  Construction, GraduationCap, HandHeart, MessageSquare, MessageCircle, ShieldCheck, ChevronRight,
   ArrowRight, Send, Calendar, Youtube, Facebook, Instagram, Twitter, Home, Tractor
 } from "lucide-react";
 import { Link } from "react-router-dom";
