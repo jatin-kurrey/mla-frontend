@@ -60,8 +60,8 @@ export const SiteHeader = () => {
         <header className="bg-background sticky top-0 z-40 shadow-card">
           <div className="container flex items-center justify-between py-3">
             <Link to="/" className="flex items-center gap-3">
-              <div className="h-12 w-12 rounded-full border-2 border-primary flex items-center justify-center text-primary">
-                <Lotus className="h-7 w-7" />
+              <div className="h-12 w-12 rounded-full border-2 border-primary flex items-center justify-center text-primary overflow-hidden bg-white">
+                <Lotus className="h-full w-full object-cover" />
               </div>
               <div>
                 <h1 className="text-primary text-xl md:text-2xl font-bold leading-tight font-hindi">{t('hero.mla_name')}</h1>

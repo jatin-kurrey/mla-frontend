@@ -15,8 +15,8 @@ export const SiteFooter = () => {
           <div className="container py-12 grid md:grid-cols-4 gap-8 text-sm">
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <div className="h-12 w-12 rounded-full border-2 border-primary flex items-center justify-center text-primary">
-                  <Lotus className="h-7 w-7" />
+                <div className="h-12 w-12 rounded-full border-2 border-primary flex items-center justify-center text-primary overflow-hidden bg-white">
+                  <Lotus className="h-full w-full object-cover" />
                 </div>
                 <div>
                   <p className="font-bold text-lg font-hindi">{t('footer.about_title')}</p>

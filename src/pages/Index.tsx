@@ -139,9 +139,9 @@ const Index = () => {
                     }}
                   >
                     <img 
-                      src={content.hero.mlaImage || "/image.png"} 
+                      src="/image-removebg-preview.png" 
                       alt={t('hero.mla_name')} 
-                      className="w-full h-full object-cover object-top scale-[1.25] md:scale-[1.35] origin-top drop-shadow-[0_20px_20px_rgba(0,0,0,0.4)] brightness-105 contrast-105" 
+                      className="w-full h-full object-contain object-bottom drop-shadow-[0_20px_20px_rgba(0,0,0,0.4)] brightness-105 contrast-105" 
                     />
                   </div>
                   <div className="absolute bottom-6 right-0 bg-background/95 backdrop-blur rounded-2xl p-4 shadow-glow border border-primary/20 flex items-center gap-3 max-w-[240px]">
