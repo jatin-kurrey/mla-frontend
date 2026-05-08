@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 36 50% 98%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 22 95% 54%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 30 100% 60%;
+
+    --secondary: 222 65% 18%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 30 30% 96%;
+    --muted-foreground: 222 20% 40%;
+
+    --accent: 22 95% 54%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 30 25% 90%;
+    --input: 30 25% 90%;
+    --ring: 22 95% 54%;
+
+    --radius: 0.75rem;
+
+    --gradient-hero: linear-gradient(135deg, hsl(30 100% 95%) 0%, hsl(22 95% 88%) 50%, hsl(22 95% 78%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(22 95% 54%), hsl(30 100% 60%));
+    --gradient-cta: linear-gradient(90deg, hsl(22 95% 50%), hsl(18 95% 55%));
+    --shadow-soft: 0 4px 20px -4px hsl(22 60% 50% / 0.15);
+    --shadow-card: 0 2px 12px -2px hsl(222 30% 20% / 0.08);
+    --shadow-glow: 0 10px 40px -10px hsl(22 95% 54% / 0.4);
+  }
+
+  * { @apply border-border; }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Noto Sans Devanagari', 'Poppins', system-ui, sans-serif;
+  }
+}
